@@ -1,0 +1,29 @@
+# STM32CubeIDE / Eclipse 用户配置
+.settings/
+.metadata/
+*.launch
+
+# 编译产物
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.list
+*.map
+*.o
+*.d
+*.su
+*.cyclo
+*.dep
+
+# IDE 自动备份
+*.bak
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 大体积媒体源文件（保留 README 与占位说明）
+# 如视频超过 GitHub 单文件 100 MB 限制，请使用 Git LFS 或网盘链接
