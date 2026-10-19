@@ -13,8 +13,6 @@
 
 ```text
 CRTC2026-SuiYuan-GitHub/
-├── README.md                       # 本文件
-├── .gitignore                      # Git 忽略规则
 ├── docs/
 │   ├── CRTC2026_中期考核技术文档.md   # 中期考核主文档
 │   └── images/                     # 文档配图
