@@ -1,0 +1,24 @@
+# ===== 大体积二进制 =====
+# media/ 下的 mp4 已单独入库，打包的 zip 属于重复内容，不入库
+media/*.zip
+*.zip
+*.7z
+*.rar
+
+# ===== STM32 构建输出（CubeIDE / IAR / Keil）=====
+firmware/**/Debug/
+firmware/**/Release/
+firmware/**/.settings/
+firmware/**/.metadata/
+*.o
+*.d
+*.elf
+*.map
+*.hex
+*.su
+
+# ===== 系统与编辑器 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
